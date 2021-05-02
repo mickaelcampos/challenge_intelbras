@@ -1,9 +1,12 @@
-import express, { json } from 'express';
+import express from 'express';
+import { bodyParser, cors } from './middlewares';
 import routes from './routes';
 
 const app = express();
 
-app.use(json());
+app.use(bodyParser);
+app.use(cors);
+
 app.use(routes);
 
 export default app;
