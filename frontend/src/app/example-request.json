@@ -1,0 +1,38 @@
+{
+	"produtos": [
+		{
+			"id": 1,
+			"nome": "Módulo Fotovoltaico #1",
+			"potencia": 330,
+			"tipo": "modulo"
+		},
+		{
+			"id": 1,
+			"nome": "Inversor #1",
+			"potencia": 3.3,
+			"tipo": "inversor"
+		},
+		{
+			"id": 3,
+			"nome": "Inversor #3",
+			"potencia": 6,
+			"tipo": "inversor"
+		},
+		{
+			"id": 2,
+			"nome": "Módulo Fotovoltaico #2",
+			"potencia": 445,
+			"tipo": "modulo"
+		},
+		{
+			"id": 2,
+			"nome": "Inversor #2",
+			"potencia": 9,
+			"tipo": "inversor"
+		}
+	],
+	"projeto": {
+		"potencia": 9345,
+		"moduloID": 2
+	}
+}
