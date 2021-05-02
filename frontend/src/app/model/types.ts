@@ -31,3 +31,11 @@ export type Options = {
     }[],
     projeto: Projeto
 }
+
+export type Solucao = {
+	id: number
+	nome: string
+	potencia: number
+	quantidade: number
+	tipo: string
+}
