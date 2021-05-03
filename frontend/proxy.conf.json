@@ -1,8 +1,12 @@
 {
-    "/calcular": {
-       "target": "http://localhost:3000",
-       "changeOrigin": true,
-       "secure": false,
-       "logLevel": "debug"
+    "/" : {
+        "target" : {
+            "host": "node-api",
+            "port": 3000,
+            "protocol": "http:"
+        },
+        "secure" : false,
+        "logLevel" : "debug",
+        "changeOrigin": true
     }
 }
