@@ -1,2 +1,2 @@
 # challenge_intelbras
-Repo for intelbras challenge
+backend for intelbras challenge
