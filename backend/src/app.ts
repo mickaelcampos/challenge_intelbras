@@ -6,6 +6,7 @@ const app = express();
 
 app.use(bodyParser);
 app.use(cors);
+app.disable('x-powered-by');
 
 app.use(routes);
 
